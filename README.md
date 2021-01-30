@@ -2,16 +2,17 @@
 This is an application for demonstrating RESTful services using mongoDB and Java's Spring Boot framework.
 
 ### Requirements
-- [] Spring Web tools
-- [] IDE such as Eclipse or IntelliJ
-- [] Postman
-- [] MongoDB
+- [ ] Spring Web tools
+- [ ] IDE such as Eclipse or IntelliJ
+- [ ] Postman
+- [ ] MongoDB
 
 ### MongoDB settings
 - Install mongodb and set the path environmental variable.
 - Open the mongo shell
         show db;
         use admin;
+
         ```json
         db.createUser(
         {
@@ -70,30 +71,42 @@ REQUEST: GET
 End point: "/product/data"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetAllProductData.PNG)
 
+
+
 2. Get the product data by its ID
 REQUEST: GET
 End point: "/product/data/{productID}"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetProductDataByID.PNG)
+
+
 
 3. Post a product data
 REQUEST: POST
 End point: "/product/data"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/PostProductData.PNG)
 
+
+
 4. Delete a product data
 REQUEST: DELETE
 End point: "/product/data/{productID}"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/DeleteProductData.PNG)
+
+
 
 5. Update a product data - price
 REQUEST: PUT
 End point: "/product/data/{productID}"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/PutUpdateProductData.PNG)
 
+
+
 6. Get product descroption
 REQUEST: GET
 End point: "/product/description/{productID}"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetProductDescription.PNG)
+
+
 
 7. Combined response - product detail
 REQUEST: GET
