@@ -67,7 +67,7 @@ In this project,
 
 1. Get all the products data.\
     REQUEST: GET.\
-    End point: "/product/data".\
+    End point: "/product/data".
 
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetAllProductData.PNG)
 
