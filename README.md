@@ -13,7 +13,7 @@ This is an application for demonstrating RESTful services using mongoDB and Java
         show db;
         use admin;
 
-        ```json
+        
         db.createUser(
         {
             user: "admin",
@@ -22,7 +22,7 @@ This is an application for demonstrating RESTful services using mongoDB and Java
          ]
         }
         )
-        ```
+        
 
 
 ### Execution
