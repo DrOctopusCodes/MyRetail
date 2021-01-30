@@ -67,50 +67,50 @@ In this project,
 
 1. Get all the products data.\
     REQUEST: GET.\
-    End point: "/product/data"\
+    End point: "/product/data".\
 
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetAllProductData.PNG)
 
 
 
-2. Get the product data by its ID
-REQUEST: GET 
-End point: "/product/data/{productID}"
+2. Get the product data by its ID.\
+REQUEST: GET.\
+End point: "/product/data/{productID}".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetProductDataByID.PNG)
 
 
 
-3. Post a product data
-REQUEST: POST
-End point: "/product/data"
+3. Post a product data.\
+REQUEST: POST.\
+End point: "/product/data".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/PostProductData.PNG)
 
 
 
-4. Delete a product data
-REQUEST: DELETE
-End point: "/product/data/{productID}"
+4. Delete a product data.\
+REQUEST: DELETE.\
+End point: "/product/data/{productID}".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/DeleteProductData.PNG)
 
 
 
-5. Update a product data - price
-REQUEST: PUT
-End point: "/product/data/{productID}"
+5. Update a product data - price.\
+REQUEST: PUT.\
+End point: "/product/data/{productID}".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/PutUpdateProductData.PNG)
 
 
 
-6. Get product descroption
-REQUEST: GET
-End point: "/product/description/{productID}"
+6. Get product descroption.\
+REQUEST: GET.\
+End point: "/product/description/{productID}".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetProductDescription.PNG)
 
 
 
-7. Combined response - product detail
-REQUEST: GET
-End point: "/product/detail/{productID}"
+7. Combined response - product detail.\
+REQUEST: GET.\
+End point: "/product/detail/{productID}".\
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/CombinedResponse.PNG)
 
 
