@@ -29,7 +29,7 @@ This is an application for demonstrating RESTful services using mongoDB and Java
 - After cloning the project, open it in the IDE.
 - Using the spring web tools, you can start the application.
 - Open a terminal and enter >mongod. This will start the mongoDB process.
-- Now we can call the API requestts from the Postman
+- Now we can call the API requests from the Postman
 
 ## Summary
 The product has two parts: data and description
@@ -63,18 +63,18 @@ In this project,
 
 ***
 
-All these request require authorization - 
-Authorization: Basic Auth (username, password)
+## All these request require authorization - 
+## Authorization: Basic Auth (username, password)
 
 1. Get all the products data
-REQUEST: GET
+REQUEST: GET 
 End point: "/product/data"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetAllProductData.PNG)
 
 
 
 2. Get the product data by its ID
-REQUEST: GET
+REQUEST: GET 
 End point: "/product/data/{productID}"
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetProductDataByID.PNG)
 
