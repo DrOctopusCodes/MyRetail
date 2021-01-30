@@ -1,4 +1,4 @@
-package com.example.demo.contollers;
+package com.example.demo.controllers;
 
 import java.util.HashMap;
 import java.util.List;
