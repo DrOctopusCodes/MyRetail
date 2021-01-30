@@ -63,12 +63,14 @@ In this project,
 
 ***
 
-## All these request require authorization - 
-## Authorization: Basic Auth (username, password)
+## All these request require authorization.  Authorization: Basic Auth (username, password)
 
 1. Get all the products data
+
 REQUEST: GET 
+
 End point: "/product/data"
+
 ![Screenshot](https://github.com/DrOctopusCodes/MyRetail/blob/main/screenshots/GetAllProductData.PNG)
 
 
